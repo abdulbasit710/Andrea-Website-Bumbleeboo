@@ -1,0 +1,368 @@
+{
+  "approvedReference": "design-reference/APPROVED_HOMEPAGE.png",
+  "preferredWebFormat": "Use WebP for scenery and photos; transparent PNG or WebP for character and foreground; real book-page images are WebP.",
+  "pathNote": "These logical paths assume public/assets is copied to the React application. Resolve app base URLs for subdirectory hosting.",
+  "assets": [
+    {
+      "path": "/assets/author/andrea-portrait.webp",
+      "title": "Andrea: portrait",
+      "usage": "Optional secondary portrait on the book detail page.",
+      "origin": "User-supplied photograph.",
+      "bytes": 163850,
+      "width": 1000,
+      "height": 1180,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/author/andrea-yellow.webp",
+      "title": "Andrea: yellow dress",
+      "usage": "Main about-author section; actual photograph.",
+      "origin": "User-supplied photograph.",
+      "bytes": 31366,
+      "width": 496,
+      "height": 800,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/backgrounds/hajar-mountains.png",
+      "title": "Carousel: mountains",
+      "usage": "Ras Al Khaimah story-inspired scene with Arabian oryx.",
+      "origin": "AI-generated website scenery based on approved design.",
+      "bytes": 2698487,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/backgrounds/hajar-mountains.webp",
+      "title": "Carousel: mountains",
+      "usage": "Ras Al Khaimah story-inspired scene with Arabian oryx.",
+      "origin": "AI-generated website scenery based on approved design.",
+      "bytes": 414928,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/backgrounds/hero-uae-world.png",
+      "title": "Hero background",
+      "usage": "Open left sky for live copy; book and Bumbleboo are separate foreground layers.",
+      "origin": "AI-generated website scenery based on approved design.",
+      "bytes": 2343533,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/backgrounds/hero-uae-world.webp",
+      "title": "Hero background",
+      "usage": "Open left sky for live copy; book and Bumbleboo are separate foreground layers.",
+      "origin": "AI-generated website scenery based on approved design.",
+      "bytes": 331420,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/backgrounds/mangroves.png",
+      "title": "Carousel: mangroves",
+      "usage": "Umm Al Quwain story-inspired slider scene; bee added independently.",
+      "origin": "AI-generated website scenery based on approved design.",
+      "bytes": 3029390,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/backgrounds/mangroves.webp",
+      "title": "Carousel: mangroves",
+      "usage": "Umm Al Quwain story-inspired slider scene; bee added independently.",
+      "origin": "AI-generated website scenery based on approved design.",
+      "bytes": 550880,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/backgrounds/miracle-garden.png",
+      "title": "Carousel: flower garden",
+      "usage": "Garden slide; place live text in a separate panel.",
+      "origin": "AI-generated website scenery based on approved design.",
+      "bytes": 3399158,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/backgrounds/miracle-garden.webp",
+      "title": "Carousel: flower garden",
+      "usage": "Garden slide; place live text in a separate panel.",
+      "origin": "AI-generated website scenery based on approved design.",
+      "bytes": 679860,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/backgrounds/uae-coastal-panorama.png",
+      "title": "Closing CTA panorama",
+      "usage": "Wide decorative coastal ribbon; keep text in the open centre.",
+      "origin": "AI-generated website scenery based on approved design.",
+      "bytes": 2090963,
+      "width": 2172,
+      "height": 724,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/backgrounds/uae-coastal-panorama.webp",
+      "title": "Closing CTA panorama",
+      "usage": "Wide decorative coastal ribbon; keep text in the open centre.",
+      "origin": "AI-generated website scenery based on approved design.",
+      "bytes": 264602,
+      "width": 2172,
+      "height": 724,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/book-preview/page-04.webp",
+      "title": "page-04",
+      "usage": "Authentic book preview page; only use in reader preview.",
+      "origin": "Rendered from supplied manuscript PDF; PDF page number in filename.",
+      "bytes": 255540,
+      "width": 1056,
+      "height": 1071,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/book-preview/page-05.webp",
+      "title": "page-05",
+      "usage": "Authentic book preview page; only use in reader preview.",
+      "origin": "Rendered from supplied manuscript PDF; PDF page number in filename.",
+      "bytes": 306762,
+      "width": 1056,
+      "height": 1071,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/book-preview/page-06.webp",
+      "title": "page-06",
+      "usage": "Authentic book preview page; only use in reader preview.",
+      "origin": "Rendered from supplied manuscript PDF; PDF page number in filename.",
+      "bytes": 291406,
+      "width": 1056,
+      "height": 1071,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/book-preview/page-07.webp",
+      "title": "page-07",
+      "usage": "Authentic book preview page; only use in reader preview.",
+      "origin": "Rendered from supplied manuscript PDF; PDF page number in filename.",
+      "bytes": 291378,
+      "width": 1056,
+      "height": 1071,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/book-preview/page-08.webp",
+      "title": "page-08",
+      "usage": "Authentic book preview page; only use in reader preview.",
+      "origin": "Rendered from supplied manuscript PDF; PDF page number in filename.",
+      "bytes": 330678,
+      "width": 1056,
+      "height": 1071,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/book-preview/page-09.webp",
+      "title": "page-09",
+      "usage": "Authentic book preview page; only use in reader preview.",
+      "origin": "Rendered from supplied manuscript PDF; PDF page number in filename.",
+      "bytes": 338096,
+      "width": 1056,
+      "height": 1071,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/brand/book-front-cover.png",
+      "title": "Original book front cover",
+      "usage": "Real cover for hero, shelf and book detail page; contain, not cropped.",
+      "origin": "Front cover extracted from supplied full cover wrap.",
+      "bytes": 1054016,
+      "width": 783,
+      "height": 768,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/brand/book-front-cover.webp",
+      "title": "Original book front cover",
+      "usage": "Real cover for hero, shelf and book detail page; contain, not cropped.",
+      "origin": "Front cover extracted from supplied full cover wrap.",
+      "bytes": 228160,
+      "width": 783,
+      "height": 768,
+      "mode": "RGB",
+      "hasTransparency": false
+    },
+    {
+      "path": "/assets/brand/bumbleboo-logo.png",
+      "title": "Original logo",
+      "usage": "Header and footer. Keep all lettering and natural proportions.",
+      "origin": "Extracted from supplied book artwork.",
+      "bytes": 173586,
+      "width": 700,
+      "height": 246,
+      "mode": "RGBA",
+      "hasTransparency": true
+    },
+    {
+      "path": "/assets/characters/bumbleboo.png",
+      "title": "Original Bumbleboo character",
+      "usage": "Separate transparent flying character for whole-layer animation.",
+      "origin": "Extracted from supplied manuscript title-page artwork.",
+      "bytes": 162647,
+      "width": 410,
+      "height": 375,
+      "mode": "RGBA",
+      "hasTransparency": true
+    },
+    {
+      "path": "/assets/decor/cloud.svg",
+      "title": "Cloud layer",
+      "usage": "Optional independent cloud with subtle drift.",
+      "origin": "Purpose-built SVG geometry.",
+      "bytes": 197
+    },
+    {
+      "path": "/assets/decor/flight-trail.svg",
+      "title": "Dotted flight trail",
+      "usage": "Decorative character path; never overlap copy.",
+      "origin": "Purpose-built SVG geometry.",
+      "bytes": 253
+    },
+    {
+      "path": "/assets/decor/floral-corner.png",
+      "title": "Transparent flower foreground",
+      "usage": "Bottom-left decoration; mirror in CSS for right side. Avoid covering text.",
+      "origin": "AI-generated transparent decorative art.",
+      "bytes": 1672969,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "hasTransparency": true
+    },
+    {
+      "path": "/assets/decor/floral-corner.webp",
+      "title": "Transparent flower foreground",
+      "usage": "Bottom-left decoration; mirror in CSS for right side. Avoid covering text.",
+      "origin": "AI-generated transparent decorative art.",
+      "bytes": 440070,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "hasTransparency": true
+    },
+    {
+      "path": "/assets/decor/sparkle.svg",
+      "title": "Gold sparkle",
+      "usage": "Small decorative accent near headings or character.",
+      "origin": "Purpose-built SVG geometry.",
+      "bytes": 171
+    },
+    {
+      "path": "/assets/decor/uae-landmarks.png",
+      "title": "Original landmark cutout",
+      "usage": "Optional separate skyline foreground for layering.",
+      "origin": "Extracted from supplied manuscript title-page artwork.",
+      "bytes": 329875,
+      "width": 850,
+      "height": 403,
+      "mode": "RGBA",
+      "hasTransparency": true
+    },
+    {
+      "path": "/assets/decor/wave-divider.svg",
+      "title": "Wave section divider",
+      "usage": "Inline and recolour to the next section background.",
+      "origin": "Purpose-built SVG geometry.",
+      "bytes": 197
+    },
+    {
+      "path": "/assets/decor/wooden-shelf.svg",
+      "title": "Wooden shelf",
+      "usage": "Illustrated shelf under the book mockup.",
+      "origin": "Purpose-built SVG geometry.",
+      "bytes": 769
+    },
+    {
+      "path": "/assets/fonts/baloo-2-700.ttf",
+      "title": "baloo-2-700",
+      "usage": "Local font for headings/body.",
+      "origin": "Google Fonts, licensed under SIL OFL.",
+      "bytes": 417960
+    },
+    {
+      "path": "/assets/fonts/baloo-2-800.ttf",
+      "title": "baloo-2-800",
+      "usage": "Local font for headings/body.",
+      "origin": "Google Fonts, licensed under SIL OFL.",
+      "bytes": 417564
+    },
+    {
+      "path": "/assets/fonts/nunito-sans-400.ttf",
+      "title": "nunito-sans-400",
+      "usage": "Local font for headings/body.",
+      "origin": "Google Fonts, licensed under SIL OFL.",
+      "bytes": 106700
+    },
+    {
+      "path": "/assets/fonts/nunito-sans-700.ttf",
+      "title": "nunito-sans-700",
+      "usage": "Local font for headings/body.",
+      "origin": "Google Fonts, licensed under SIL OFL.",
+      "bytes": 106792
+    },
+    {
+      "path": "/assets/fonts/nunito-sans-800.ttf",
+      "title": "nunito-sans-800",
+      "usage": "Local font for headings/body.",
+      "origin": "Google Fonts, licensed under SIL OFL.",
+      "bytes": 106804
+    },
+    {
+      "path": "/assets/video/bumbleboo-trailer.mp4",
+      "title": "Bumbleboo trailer",
+      "usage": "Homepage trailer playback.",
+      "origin": "User-supplied video.",
+      "bytes": 75025288
+    },
+    {
+      "path": "/assets/video/bumbleboo-trailer-poster.jpg",
+      "title": "Bumbleboo trailer poster",
+      "usage": "Homepage trailer poster.",
+      "origin": "Frame extracted from user-supplied video.",
+      "bytes": 228093,
+      "width": 1920,
+      "height": 1080
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "author": {
+    "name": "Andrea Leigh Hayes",
+    "heading": "Hello, I’m Andrea.",
+    "descriptor": "Storyteller. Music lover. Champion of little imaginations.",
+    "image": "/assets/author/andrea-yellow.webp",
+    "secondaryImage": "/assets/author/andrea-portrait.webp",
+    "bioParagraphs": [
+      "Andrea Leigh Hayes has dedicated her career to inspiring and educating children, bringing creativity and joy from the stage to the classroom.",
+      "After earning a BA (Hons) in Musical Theatre, singing and music remained at the heart of everything she does, shaping the rhythmic and engaging way she connects with young minds.",
+      "Having spent most of her life in the United Arab Emirates, Andrea was inspired to write her debut children’s book to celebrate the rich beauty of the country she calls home and to share the timeless message of unity and the power of the Union with a new generation of readers."
+    ]
+  },
+  "brand": {
+    "logo": "/assets/brand/bumbleboo-logo.png",
+    "character": "/assets/characters/bumbleboo.png",
+    "tagline": "Big adventures for little imaginations.",
+    "copyright": "© 2026 Andrea Leigh Hayes. All rights reserved."
+  },
+  "navigation": [
+    {
+      "label": "The Adventure",
+      "target": "/#adventure"
+    },
+    {
+      "label": "Meet Andrea",
+      "target": "/meet-andrea"
+    },
+    {
+      "label": "Bookshelf",
+      "target": "/#bookshelf"
+    },
+    {
+      "label": "Watch & Wonder",
+      "target": "/#trailer"
+    },
+    {
+      "label": "The Flag Song",
+      "target": "/the-flag-song"
+    },
+    {
+      "label": "Contact Andrea",
+      "target": "/contact-andrea"
+    }
+  ],
+  "hero": {
+    "eyebrow": "HELLO, LITTLE EXPLORER!",
+    "heading": "Little wings. BIG adventures.",
+    "intro": "Seven emirates. A rainbow of possibilities.",
+    "description": "Join Bumbleboo on a magical journey through the UAE.",
+    "primaryLabel": "Explore the Book",
+    "secondaryLabel": "Take a Peek",
+    "badge": "7 Emirates. One Big Adventure.",
+    "background": "/assets/backgrounds/hero-uae-world.webp"
+  },
+  "adventure": {
+    "heading": "A little bee. A world of wonder.",
+    "slides": [
+      {
+        "id": "garden",
+        "title": "The adventure begins in Dubai.",
+        "location": "DUBAI",
+        "description": "Bumbleboo’s colourful quest starts in the sparkling city of Dubai, where new friends, vibrant gardens and exciting clues are waiting!",
+        "image": "/assets/backgrounds/miracle-garden.webp",
+        "alt": "A colourful storybook flower garden with arches, fountains and flamingos",
+        "ctaLabel": "Explore the Story"
+      },
+      {
+        "id": "mangroves",
+        "title": "A splash of colour. A brand-new friend.",
+        "location": "UMM AL QUWAIN",
+        "description": "Follow Bumbleboo to the mangroves, where a pink flamingo and a crane help the little explorer on a colourful quest.",
+        "image": "/assets/backgrounds/mangroves.webp",
+        "alt": "Illustrated turquoise mangrove waters with flamingos, a crane and a wooden jetty",
+        "ctaLabel": "Follow the Clues"
+      },
+      {
+        "id": "mountains",
+        "title": "Let your curiosity fly a little higher.",
+        "location": "RAS AL KHAIMAH",
+        "description": "Across sunlit mountains and winding paths, Bumbleboo’s adventure brings new discoveries and a very special meeting with an Arabian oryx.",
+        "image": "/assets/backgrounds/hajar-mountains.webp",
+        "alt": "Golden storybook mountains, two Arabian oryx and a turquoise coastline",
+        "ctaLabel": "Keep Exploring"
+      },
+      {
+        "id": "uae",
+        "title": "Seven emirates. One beautiful home.",
+        "location": "THE UNITED ARAB EMIRATES",
+        "description": "From gardens and mountains to sparkling seas, discover a story of friendship, belonging and the colours that bring us together.",
+        "image": "/assets/backgrounds/hero-uae-world.webp",
+        "alt": "Illustrated UAE landmarks beside a turquoise sea and golden dunes",
+        "ctaLabel": "Discover the Book"
+      }
+    ]
+  },
+  "book": {
+    "title": "Bumbleboo discovers the UAE",
+    "author": "Andrea Leigh Hayes",
+    "slug": "bumbleboo-discovers-the-uae",
+    "route": "/books/bumbleboo-discovers-the-uae",
+    "cover": "/assets/brand/book-front-cover.webp",
+    "shelfHeading": "Your next adventure is here.",
+    "shortDescription": "A joyful journey across all seven emirates about friendship, discovery and unity.",
+    "themes": [
+      "Friendship",
+      "Discovery",
+      "Unity"
+    ],
+    "blurbParagraphs": [
+      "Oh no! The colours of the UAE flag have gone missing!",
+      "When a colourful caterpillar asks Bumbleboo for help, the little bee takes to the sky on a quest across all seven emirates. From flamingos in the mangroves of Umm Al Quwain to dancing fountains in Dubai, Bumbleboo meets new friends and follows clues through mountains, deserts and sparkling seas.",
+      "Can you spot the missing colours before Bumbleboo does?"
+    ],
+    "language": "English",
+    "retailerLabel": "Find on Amazon",
+    "retailerUrl": "https://www.amazon.ae/s?k=Bumbleboo+discovers+the+UAE+Andrea+Leigh+Hayes",
+    "retailerLinkType": "title_search",
+    "retailerNote": "This opens an Amazon title search. Check the retailer for availability, editions, pricing and delivery to your location.",
+    "verifiedProductUrl": null,
+    "isbn": null,
+    "price": null,
+    "ageRange": null
+  },
+  "preview": {
+    "heading": "A peek inside the possibilities.",
+    "ctaLabel": "Open the Storybook",
+    "dialogTitle": "Let the story begin.",
+    "sourceNote": "Authentic opening pages from the supplied manuscript; PDF page numbers are used.",
+    "spreads": [
+      [
+        {
+          "page": 4,
+          "image": "/assets/book-preview/page-04.webp",
+          "alt": "Bumbleboo peeks out from the flowers at Miracle Garden"
+        },
+        {
+          "page": 5,
+          "image": "/assets/book-preview/page-05.webp",
+          "alt": "Bumbleboo greets the visitors at Miracle Garden"
+        }
+      ],
+      [
+        {
+          "page": 6,
+          "image": "/assets/book-preview/page-06.webp",
+          "alt": "Bumbleboo wonders where the colours have gone"
+        },
+        {
+          "page": 7,
+          "image": "/assets/book-preview/page-07.webp",
+          "alt": "A colourful caterpillar meets Bumbleboo in the garden"
+        }
+      ],
+      [
+        {
+          "page": 8,
+          "image": "/assets/book-preview/page-08.webp",
+          "alt": "Bumbleboo watches the colourful kite display"
+        },
+        {
+          "page": 9,
+          "image": "/assets/book-preview/page-09.webp",
+          "alt": "Bumbleboo learns about the missing colours of the UAE"
+        }
+      ]
+    ]
+  },
+  "video": {
+    "heading": "Watch the wonder unfold.",
+    "label": "Bumbleboo Story Trailer",
+    "src": "/assets/video/bumbleboo-trailer.mp4",
+    "poster": "/assets/video/bumbleboo-trailer-poster.jpg",
+    "durationSeconds": 60,
+    "note": "Watch the one-minute Bumbleboo trailer."
+  },
+  "reviews": {
+    "heading": "Little readers. Big feelings.",
+    "emptyMessage": "Reader stories coming soon.",
+    "items": []
+  },
+  "faqs": [
+    {
+      "question": "What is Bumbleboo’s adventure about?",
+      "answer": "When the colours of the UAE flag go missing, Bumbleboo sets off on a quest across all seven emirates. Along the way, the little bee meets new friends and discovers the beauty of friendship, curiosity and unity."
+    },
+    {
+      "question": "Can I look inside the book?",
+      "answer": "Yes. Open the storybook preview to read six authentic opening pages and explore the illustrations.",
+      "action": "open_preview",
+      "actionLabel": "Open the Storybook"
+    },
+    {
+      "question": "Where can I find the book?",
+      "answer": "Visit the book details page for the title and an Amazon search link. Please check the retailer for availability, prices and delivery options.",
+      "action": "open_book",
+      "actionLabel": "Discover the Book"
+    }
+  ],
+  "closing": {
+    "heading": "Ready to spread your little wings?",
+    "ctaLabel": "Let the Adventure Begin",
+    "background": "/assets/backgrounds/uae-coastal-panorama.webp"
+  },
+  "contact": {
+    "email": "andrea_leigh_w@hotmail.com",
+    "instagram": null,
+    "facebook": null,
+    "newsletterEndpoint": null
+  },
+  "contentStatus": {
+    "realTestimonialsSupplied": false,
+    "directRetailerUrlSupplied": false,
+    "officialTrailerSupplied": true,
+    "teaserIncluded": false
+  }
+}
