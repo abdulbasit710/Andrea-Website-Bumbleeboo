@@ -1,6 +1,6 @@
 import {useEffect} from 'react';
 import {Link} from 'react-router-dom';
-import {asset,bookPath,content as c} from './content';
+import {asset,bookPath,content as c,songPath} from './content';
 import './meet-andrea.css';
 
 export default function MeetAndrea(){
@@ -42,7 +42,7 @@ export default function MeetAndrea(){
           <p>{c.author.bioParagraphs[0]}</p>
           <p>{c.author.bioParagraphs[1]}</p>
           <div className="meet-story-tags" aria-label="Andrea's creative interests"><span>Storytelling</span><span>Music</span><span>Young imaginations</span></div>
-          <Link className="meet-song-link" to="/the-flag-song">Listen to Andrea's song <span aria-hidden="true">↗</span></Link>
+          <Link className="meet-song-link" to={songPath}>Listen to Power of the Union <span aria-hidden="true">↗</span></Link>
         </div>
       </div>
     </section>

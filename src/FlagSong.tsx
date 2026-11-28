@@ -15,7 +15,7 @@ export default function FlagSong(){
 
   useEffect(()=>{
     const previous=document.title;
-    document.title='Listen to The Flag Song | Andrea Leigh Hayes';
+    document.title='Power of the Union | Andrea Leigh Hayes';
     return()=>{audio.current?.pause();document.title=previous};
   },[]);
 
@@ -31,11 +31,11 @@ export default function FlagSong(){
       <div className="wrap song-grid">
         <div className="song-copy">
           <span className="song-kicker">A SONG FROM ANDREA <span aria-hidden="true">✦</span></span>
-          <h1 id="song-title">The <em>Flag Song.</em></h1>
-          <p>A little music for big imaginations. Press play and listen to Andrea's song.</p>
-          <div className="song-player" aria-label="The Flag Song audio player">
+          <h1 id="song-title">Power of the <em>Union.</em></h1>
+          <p>Celebrate the spirit of the UAE through Andrea's song. Press play to listen.</p>
+          <div className="song-player" aria-label="Power of the Union audio player">
             <audio ref={audio} src={songSource} preload="metadata" onLoadedMetadata={event=>setDuration(event.currentTarget.duration)} onTimeUpdate={event=>setElapsed(event.currentTarget.currentTime)} onPlay={()=>setPlaying(true)} onPause={()=>setPlaying(false)} onEnded={()=>setPlaying(false)} onError={()=>setError(true)}/>
-            <div className="song-player-top"><button className="song-play" type="button" onClick={toggle} aria-label={playing?'Pause The Flag Song':'Play The Flag Song'}>{playing?'Ⅱ':'▶'}</button><div><strong>The Flag Song</strong><span>Andrea Leigh Hayes</span></div><span className="song-player-note" aria-hidden="true">♫</span></div>
+            <div className="song-player-top"><button className="song-play" type="button" onClick={toggle} aria-label={playing?'Pause Power of the Union':'Play Power of the Union'}>{playing?'Ⅱ':'▶'}</button><div><strong>Power of the Union</strong><span>Andrea Leigh Hayes</span></div><span className="song-player-note" aria-hidden="true">♫</span></div>
             <label className="sr-only" htmlFor="song-progress">Song position</label>
             <input id="song-progress" className="song-progress" type="range" min="0" max={duration||1} step="0.1" value={elapsed} onChange={event=>{if(audio.current)audio.current.currentTime=Number(event.target.value)}} aria-valuetext={`${timeLabel(elapsed)} of ${timeLabel(Math.ceil(duration))}`} style={{'--progress':`${duration?elapsed/duration*100:0}%`} as React.CSSProperties}/>
             <div className="song-times"><span>{timeLabel(elapsed)}</span><span>{duration?timeLabel(Math.ceil(duration)):'2:18'}</span></div>

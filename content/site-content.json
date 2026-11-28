@@ -35,8 +35,8 @@
       "target": "/#trailer"
     },
     {
-      "label": "The Flag Song",
-      "target": "/the-flag-song"
+      "label": "Power of the Union",
+      "target": "/power-of-the-union"
     },
     {
       "label": "Contact Andrea",
@@ -46,8 +46,8 @@
   "hero": {
     "eyebrow": "HELLO, LITTLE EXPLORER!",
     "heading": "Little wings. BIG adventures.",
-    "intro": "Seven emirates. A rainbow of possibilities.",
-    "description": "Join Bumbleboo on a magical journey through the UAE.",
+    "intro": "Seven emirates. One unforgettable adventure.",
+    "description": "Join Bumbleboo on a journey of friendship and discovery across the UAE.",
     "primaryLabel": "Explore the Book",
     "secondaryLabel": "Take a Peek",
     "badge": "7 Emirates. One Big Adventure.",
